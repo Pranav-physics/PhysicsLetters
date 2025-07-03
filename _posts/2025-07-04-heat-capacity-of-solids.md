@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Historical Perspective on the Evolution of Heat Capacity of Solids"
+title: "heat-capacity of solids"
 date: 2025-07-04
 ---
 
