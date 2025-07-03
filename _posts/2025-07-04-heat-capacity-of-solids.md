@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "heat-capacity of solids"
+title: "heat capacity of solids"
 date: 2025-07-04
 ---
 
