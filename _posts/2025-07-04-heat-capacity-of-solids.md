@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Historical Perspective on the Evolution of Heat Capacity of Solids"
-date: 2025-07-03
+date: 2025-07-04
 ---
 
 > *This article is inspired by content from* **Oxford Solid State Physics** *by Steven H. Simon.*
