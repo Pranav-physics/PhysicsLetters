@@ -25,5 +25,40 @@ Z = \\frac{1}{(2\\pi\\hbar)^3} \\int \\exp(-\\beta H) \\, dx \\, dp
 This integral can be separated into two independent integrals: one for the momentum term and one for the position term:
 
 $$Z = \frac{1}{(2\pi\hbar)^3} \left( (\int \exp\left(-\beta \frac{P^2}{2m}\right) \, dp \right) )^3 \left(( \int \exp\left(-\beta \frac{1}{2}kx^2\right) \, dx \right))^3$$
+The cube powers in the partition function arise because we are dealing with three spatial dimensions — each dimension contributes independently to the integral.
+
+Now, the integrals involved are standard Gaussian integrals and are straightforward to evaluate using the identity:
+
+\\[
+\int_{-\infty}^{\infty} \exp(-\alpha x^2) \, dx = \sqrt{\\frac{\pi}{\alpha}}
+\\]
+
+Applying this identity to both the momentum and position integrals, and simplifying, we eventually arrive at the partition function:
+
+\\[
+Z = \\frac{1}{\hbar \omega \beta}
+\\]
+
+Once we have the partition function, calculating the average energy becomes straightforward. The average energy is given by:
+
+\\[
+\\langle E \\rangle = -\\frac{\\partial}{\\partial \\beta} \\ln Z
+\\]
+
+Substituting the expression for \( Z \), we find:
+
+\\[
+\\langle E \\rangle = 3k_B T
+\\]
+
+Finally, the heat capacity at constant volume is the derivative of the average energy with respect to temperature:
+
+\\[
+C_V = \\frac{\\partial \\langle E \\rangle}{\\partial T} = 3k_B
+\\]
+
+This is the classical result predicted by the Dulong–Petit law, which states that the molar heat capacity of a solid is approximately \( 3R \), where \( R \) is the universal gas constant.
+
+However, don’t get too excited — this classical approach has its limitations. The Dulong–Petit law fails at low temperatures and cannot explain the observed decrease in heat capacity. In the next article, we'll explore how Einstein addressed this problem with a clever quantum correction.
 
 ---
