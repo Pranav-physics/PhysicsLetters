@@ -1,5 +1,5 @@
 ---
-title: "heat capacity of solids"
+title: "Heat capacity of solids 1"
 date: 2025-07-04
 categories: [Physics, Thermodynamics, Statistical Mechanics]
 tags: [Dulong-Petit Law, Boltzmann, Heat Capacity, Harmonic Oscillator, Partition Function]
