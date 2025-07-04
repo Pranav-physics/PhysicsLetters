@@ -24,6 +24,6 @@ Z = \\frac{1}{(2\\pi\\hbar)^3} \\int \\exp(-\\beta H) \\, dx \\, dp
 \\]
 This integral can be separated into two independent integrals: one for the momentum term and one for the position term:
 
-$$Z = \frac{1}{(2\pi\hbar)^3} \left( \int \exp\left(-\beta \frac{P^2}{2m}\right) \, dp \right) \left( \int \exp\left(-\beta \frac{1}{2}kx^2\right) \, dx \right)$$
+$$Z = \frac{1}{(2\pi\hbar)^3} \left( (\int \exp\left(-\beta \frac{P^2}{2m}\right) \, dp \right) )^3 \left(( \int \exp\left(-\beta \frac{1}{2}kx^2\right) \, dx \right))^3$$
 
 ---
