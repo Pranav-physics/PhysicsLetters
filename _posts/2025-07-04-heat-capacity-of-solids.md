@@ -5,6 +5,9 @@ categories: [Physics, Thermodynamics, Statistical Mechanics]
 tags: [Dulong-Petit Law, Boltzmann, Heat Capacity, Harmonic Oscillator, Partition Function]
 math: true 
 ---
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 In 1819, Pierre Louis Dulong and Alexis Thérèse Petit experimentally discovered that the molar heat capacity for 13 measured elements was approximately constant. They observed that the product of the mass-specific heat capacity and the presumed relative atomic weight of the element yielded a nearly constant value. At the time, Dulong and Petit were unaware of the relationship between their findings and the gas constant ($R$), as this constant had not yet been defined through the kinetic theory of gases.
 
